@@ -1,4 +1,7 @@
 def concat(a,b):
     return a+b
 
-print(concat('abc','xyz'))
+
+a=input()
+b=input()
+concat(a,b)
