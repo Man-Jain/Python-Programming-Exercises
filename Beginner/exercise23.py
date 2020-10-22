@@ -1,6 +1,8 @@
-def sq(x):
-    ans=x*x
+import math
+def sq():
+    x=int(input("Entre Number :"))
+    ans=math.sqrt(x)
     return ans
 
-print(sq(3))
-print(sq(5))
+sq()
+
